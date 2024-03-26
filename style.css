@@ -1,0 +1,56 @@
+body {
+    background: url(image/pexels-polina-tankilevitch-5469046.jpg);
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d24b9c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.skills-section {
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    border: 1px solid #551453;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-section {
+    background-color: #d24b9c;
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .intro-section, .skills-section, .contact-section {
+        padding: 10px;
+    }
+}
